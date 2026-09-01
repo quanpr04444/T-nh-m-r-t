@@ -8,7 +8,7 @@ st.set_page_config(page_title="Tính Mã Rớt Ca", layout="wide")
 st.title("🚛 Công cụ tính Mã Rớt Ca Tuyến Chính")
 
 # --- CẤU HÌNH ---
-SPECIAL_90M_WAREHOUSES = ['024GW0', '229GW0', '221GW0', '292GW0', '028GW6', '028GW0']
+SPECIAL_90M_WAREHOUSES = ['024GW0', '229GW0', '221GW0', '292GW0', '028GW6', '028GW0', '028GW5']
 
 DEFAULT_SHIFT_MAP = {
     '024GW0': {1: '04:30', 2: '11:30'}, '024GW3': {1: '04:30', 2: '12:15'},

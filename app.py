@@ -148,7 +148,7 @@ if st.button("🚀 TẠO BẢNG", type="primary"):
                         dest_code = str(drow['Mã BC đích đến'])
                         if not dest_code or dest_code == 'TRỐNG': continue
 
-                        dest_name = str(drow.get('Bưu cục hàng đến', dest_code)).strip()
+                        dest_name = str(drow.get('Bưu cục đến', dest_code)).strip()
                         sub = routes[routes['Mã BC đích đến'] == dest_code].copy()
 
                         extraction_mins = 90 if dest_code in SPECIAL_90M_WAREHOUSES else 60
